@@ -28,16 +28,25 @@
 // //     alert ('không phải tên Hân')
 // // }
 
-let a = prompt ('điểm')
+// let a = prompt ('điểm')
 
-if (a < 5) {
-    alert ('học sinh yếu')
-}
+// if (a < 5) {
+//     alert ('học sinh yếu')
+// }
 
-else if (a < 8) {
-    alert ('học sinh khá')
-}
+// else if (a < 8) {
+//     alert ('học sinh khá')
+// }
 
-else {
-    alert ('học sinh giỏi')
-}
+// else {
+//     alert ('học sinh giỏi')
+// }
+
+// Vòng lặp
+// while
+// do while
+// for
+// for in
+// for of
+
+// ARRAY
