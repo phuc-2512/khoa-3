@@ -50,3 +50,14 @@
 // for of
 
 // ARRAY
+let lop = [
+    'JSB',
+    'JSA',
+    'JSi',
+    ['JSB01', 'JSB02', 'JSB03']
+]
+let so=['6','7','8','9','5']
+
+for (let i = 0; i<so.length; i++) {
+    console.log(so[i]);
+}
