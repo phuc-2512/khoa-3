@@ -28,6 +28,16 @@
 // //     alert ('không phải tên Hân')
 // // }
 
- let a = {"học sinh"}
+let a = prompt ('điểm')
 
- 
+if (a < 5) {
+    alert ('học sinh yếu')
+}
+
+else if (a < 8) {
+    alert ('học sinh khá')
+}
+
+else {
+    alert ('học sinh giỏi')
+}
