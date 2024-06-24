@@ -23,7 +23,7 @@
  
 // // if (myName == 'Han') {
 // //     console.log('Xin chào' +myName);
-// // }si
+// // }
 // // else {
 // //     alert ('không phải tên Hân')
 // // }
