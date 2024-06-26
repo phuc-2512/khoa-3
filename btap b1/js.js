@@ -25,8 +25,8 @@ console.log(student);
 
 let a = prompt('Độ tuổi cần tìm?')
 
-for (let i = 0; i < student.length; i++) {
-    if (a == student[i++][i + 1]) {
+for (i = 0; i < student.length; i++) {
+    if (a == student[i][age]) {
         alert(a)
     }
     else {
