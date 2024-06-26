@@ -23,13 +23,46 @@ let student = [
 
 console.log(student);
 
-let a = prompt('Độ tuổi cần tìm?')
+let age = prompt('Đọo tuổi cần tìm?')
 
-for (i = 0; i < student.length; i++) {
-    if (a == student[i][age]) {
-        alert(a)
+student.forEach( s => {
+    if (s.age == age) {
+        alert(s.name);
     }
     else {
         alert('Không tìm thấy!')
     }
+})
+
+// let course = prompt('Khoá học cần tìm')
+
+// student.forEach(s => {
+//     if (s.course.includes(course)) {
+//         alert(s.name);
+//     }
+//     else {
+//         alert('Chưa có lớp này!')
+//     }
+// })
+
+// Bài 2
+let arr1 = [0, 2, 4, 6, 8]
+let arr2 = [1, 3, 5, 7]
+
+for (let num of arr1) {
+    if (num > 3) {
+        console.log((num))
+    }
 }
+
+for (let num of arr2) {
+    if(num > 3) {
+        console.log(num);
+    }
+}
+
+let A = arr1 + arr2;
+console.log(A);
+
+let B = [...arr1, ...arr2].sort((a, b) => a - b);
+console.log(B);
