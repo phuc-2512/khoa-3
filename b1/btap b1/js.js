@@ -1,4 +1,4 @@
-let student = [
+var student = [
     {
         name: 'NVA',
         age: 16,
@@ -23,16 +23,16 @@ let student = [
 
 console.log(student);
 
-let age = prompt('Đọo tuổi cần tìm?')
+// let age = prompt('Đọo tuổi cần tìm?')
 
-student.forEach( s => {
-    if (s.age == age) {
-        alert(s.name);
-    }
-    else {
-        alert('Không tìm thấy!')
-    }
-})
+// for (let i = 0; i<student.length; i++) {
+//     if (age == student[i].age) {
+//         alert(student[i].name)
+//     }
+//     else {
+//         alert('Khong tim thay')
+//     }
+// }
 
 // let course = prompt('Khoá học cần tìm')
 
@@ -44,6 +44,8 @@ student.forEach( s => {
 //         alert('Chưa có lớp này!')
 //     }
 // })
+
+
 
 // Bài 2
 let arr1 = [0, 2, 4, 6, 8]
@@ -61,8 +63,11 @@ for (let num of arr2) {
     }
 }
 
-let A = arr1 + arr2;
+let A = arr1+','+arr2;
 console.log(A);
 
 let B = [...arr1, ...arr2].sort((a, b) => a - b);
 console.log(B);
+
+let C = arr1+arr2.sort(C)
+console.log(C);
