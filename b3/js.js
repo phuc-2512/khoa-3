@@ -74,5 +74,5 @@
 // map()
 const a = [1, 4, 3, 8]
 
-var dtich = lengthArr (canh => canh*canh)
+var dtich = lengthArr.map(canh => canh*canh)
 console.log(dtich);
