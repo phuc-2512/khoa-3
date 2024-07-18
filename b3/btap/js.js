@@ -34,6 +34,8 @@ let student = [
     }
 ]
 
+// Câu 4
+
 
 // Cau 1: nhap tuoi va in ra name cua nhung ai co so tuoi da nhap
 // var age = prompt('Tuổi: ');
